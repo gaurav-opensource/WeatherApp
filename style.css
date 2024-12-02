@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffa17f, #00223e);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .weather-app {
+    background-color: white;
+    color: #222;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+  
+  h1 {
+    color: green;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover{
+    background-color: darkorange;
+  }
+  
+  .weather-data {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .weather-data p {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  
+  .weather-data img {
+    width: 50px;
+  }
+  
